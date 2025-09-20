@@ -1,25 +1,25 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "mailcrypter",
 	"version": "${version}",
-	"name": "Example mod",
+	"name": "Mail Crypter",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
-		"Me!"
+		"alexporter7"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/alexporter7",
+		"sources": "https://github.com/alexporter7/MCMailCrypter"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/modid/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.github.alexporter7.MailCrypter"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.github.alexporter7.MailCrypterClient"
 		]
 	},
 	"mixins": [
