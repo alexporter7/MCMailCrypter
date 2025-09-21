@@ -12,7 +12,7 @@
 		"sources": "https://github.com/alexporter7/MCMailCrypter"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/mailcrypter/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -20,12 +20,15 @@
 		],
 		"client": [
 			"com.github.alexporter7.MailCrypterClient"
+		],
+		"modmenu": [
+			"com.github.alexporter7.config.MailCrypterConfigScreen"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"mailcrypter.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "mailcrypter.client.mixins.json",
 			"environment": "client"
 		}
 	],

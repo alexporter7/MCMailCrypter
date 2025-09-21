@@ -49,6 +49,8 @@ dependencies {
 	}
 	//Mod Menu
 	modApi "com.terraformersmc:modmenu:${project.mod_menu_version}"
+
+	implementation 'com.google.code.gson:gson:2.13.2'
 	
 }
 

@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "com.github.alexporter7",
+	"package": "com.github.alexporter7.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 
